@@ -3,6 +3,15 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.10'
 
+#User Authentication
+gem 'devise'
+
+#seed data
+gem 'faker'
+
+#evvironment variables
+gem 'figaro', '1.0'
+
 # Use sqlite3 as the database for Active Record
 group :production do
   gem 'pg'
